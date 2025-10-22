@@ -1,0 +1,24 @@
+---
+- name: Configure VLAN on Cisco Switches
+  hosts: switches
+  gather_facts: false
+  connection: network_cli
+  tasks:
+    - name: Configure VLAN 20 on switch
+      ios_config:
+        lines:
+          - vlan 20
+          - name prueba2
+        save_when: modified
+
+- name: Configure OSPF on Cisco Routers
+  hosts: routers
+  gather_facts: false
+  connection: network_cli
+  tasks:
+    - name: Configure OSPF process 1
+      ios_config:
+        parents: router ospf 1
+        lines:
+          - network 192.168.0.0 0.0.0.255 area 0
+        save_when: modified
