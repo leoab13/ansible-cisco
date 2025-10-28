@@ -1,18 +1,11 @@
 # Ansible Cisco — Network Automation Playbooks
 
-A compact, well-documented collection of Ansible playbooks and configuration helpers to automate Cisco device configuration, testing and provisioning. Built to demonstrate practical network automation skills, secure configuration management, and repeatable deployment workflows — ideal for showing as a portfolio piece during interviews.
+A compact, well-documented collection of Ansible playbooks and configuration helpers to automate Cisco device configuration, testing and provisioning. Built to demonstrate practical network automation skills, secure configuration management, and repeatable deployment workflows 
 
-Why this repo is valuable to recruiters
-- Shows end-to-end automation skills: inventory management, role-free Ansible playbooks, config templates, and device verification.
-- Demonstrates Cisco networking knowledge: common switch/router configuration tasks encapsulated in repeatable playbooks.
-- Includes practical engineering artifacts: setup script, inventory/reference configs, and variable-driven runs.
-- Ready-to-run with minimal prerequisites — easy for reviewers to spin up and evaluate.
-
-Key highlights (skills demonstrated)
+Key highlights 
 - Ansible core: playbooks, inventory, variables, group_vars and idempotent runs
 - Networking: Cisco IOS device configuration and templating
 - Automation engineering: reproducible setup, documentation, and minimal scripts to bootstrap tests
-- Collaboration readiness: clear README, structured repo, and real-world device configuration examples
 
 Quick snapshot
 - Primary playbook: `playbook.yml`
