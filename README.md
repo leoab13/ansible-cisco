@@ -94,9 +94,3 @@ Possible improvements / follow-ups (good talking points)
 - Add molecule or integration tests using simulated devices.
 - Add CI to run linting and syntax checks on commits.
 - Add Ansible Vault usage and example CI patterns for secret handling.
-
-Contact / Author
-- Name: Leonardo (repo owner)
-- GitHub: @leoab13
-- Email: (add your preferred contact here)
-- Quick pitch: "I build repeatable automation for network infrastructure using Ansible, emphasizing idempotence, maintainability, and clear documentation."
